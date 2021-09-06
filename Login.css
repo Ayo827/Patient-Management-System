@@ -1,0 +1,51 @@
+.Login{
+    display: flex;
+    flex-flow: column;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+}
+.Login__Page{
+    display: flex;
+    flex-flow: column;
+    align-content:center;
+    align-items: center;
+    justify-content: center; 
+}
+.image{
+    width: 400px;
+}
+.Login__Page > .Login__PageHead > h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(38, 69, 136);
+}
+ .Login__Input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(136, 23, 53);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:rgb(38, 69, 136);
+}
+.Login__label{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(38, 69, 136);
+    font-weight: bold;
+}
+
+#submit{
+    width: 150px;
+    background-color: rgb(136, 23, 53);
+    color:white;
+    height: 45px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgb(136, 23, 53);
+    border-color: rgb(136, 23, 53);
+}

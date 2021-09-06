@@ -1,0 +1,103 @@
+/* brown: rgb(136, 23, 53)
+blue: rgb(38, 69, 136);*/
+
+header{
+    display: flex;
+}
+.logo{
+     flex: 1;
+}
+.Logo{
+    width: 300px;
+}
+.welcome{
+    display: flex;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.welcome > h4{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(136, 23, 53);
+    font-size: larger;
+}
+.default{
+    display: flex;
+    width: 100%;
+    align-content:center;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.default > a{
+text-decoration: none;
+}
+.default > a > span{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(136, 23, 53);
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    padding: 15px;
+}
+span > p{
+    color: rgb(38, 69, 136); 
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*----Registration Page ---*/
+.registration, .Profile{
+    display: flex;
+    flex-flow: column;
+    align-content:center;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+    border: 1px solid rgb(136, 23, 53);
+    border-radius: 5px;
+    padding: 20px;
+}
+.registration__Header > h2{
+    color: rgb(136, 23, 53);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.registration__input, .Profile__Input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: rgb(136, 23, 53);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:rgb(58, 81, 129)
+}
+.reg__label{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(38, 69, 136);
+}
+.submit{
+    width: 150px;
+    background-color: rgb(136, 23, 53);
+    color:white;
+    height: 45px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgb(136, 23, 53);
+    border-color: rgb(136, 23, 53);
+}
+.icon{
+    object-fit: contain;
+    width: 70px;
+    top:15px;
+}

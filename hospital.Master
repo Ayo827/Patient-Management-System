@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="hospital.master.vb" Inherits="Hospital_Project.hospital" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="styles.css" type="text/CSS" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <div class="logo">
+                    <a href="Default.aspx">
+                        <img src="images/download.png" class="Logo" alt="Hospital-Logo" />
+                    </a>
+                </div>
+                <div class="welcome">
+                    <h4>Welcome, Administrator!</h4>
+                </div>
+            </header>
+           <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            <footer>
+                <center>
+                 <p>Livewire Hospital Limited &#124; Powered by Ayodeji Adebola</p>
+                  <p> <a style="text-decoration: none;" href=null>Logo source Logodesign.net</a></p>  
+                </center>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
