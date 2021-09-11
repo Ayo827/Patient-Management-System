@@ -16,8 +16,8 @@ Public Class Config
 #Region "Constructor"
     Shared Sub New()
 
-        _connectionString = ConfigurationManager.ConnectionStrings("Admins").ConnectionString
-        _providerName = ConfigurationManager.ConnectionStrings("Admins").ProviderName
+        _connectionString = ConfigurationManager.ConnectionStrings("Hospital_Management").ConnectionString
+        _providerName = ConfigurationManager.ConnectionStrings("Hospital_Management").ProviderName
 
     End Sub
 
